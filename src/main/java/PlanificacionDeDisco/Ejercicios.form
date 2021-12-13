@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+    <Property name="title" type="java.lang.String" value="Simulador de Discos Duros"/>
+    <Property name="resizable" type="boolean" value="false"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <EmptySpace pref="132" max="32767" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="1" attributes="0">
+                      <Component id="simuladorPanel" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="119" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="1" attributes="0">
+                      <Component id="iniciarEjerciciosBtn" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="menuBtn" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="1" attributes="0">
+              <EmptySpace min="-2" pref="61" max="-2" attributes="0"/>
+              <Component id="simuladorPanel" max="32767" attributes="0"/>
+              <EmptySpace min="-2" pref="49" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="menuBtn" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="iniciarEjerciciosBtn" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="simuladorPanel">
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="cilindrosLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="velocidadLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="peticion1Label" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Group type="102" alignment="0" attributes="0">
+                          <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="busquedaLabel" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <Component id="platosLabel" min="-2" max="-2" attributes="0"/>
+                      <Component id="sectoresLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="peticion2Label" alignment="0" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace pref="77" max="32767" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Component id="peticion1Txt" max="32767" attributes="0"/>
+                          <Component id="tiempoDeBusquedaTxt" alignment="0" max="32767" attributes="0"/>
+                          <Component id="velocidadDeGiro" alignment="0" max="32767" attributes="0"/>
+                          <Component id="numeroDeCilindrosTxt" alignment="0" max="32767" attributes="0"/>
+                          <Component id="numeroDeSectoresxPistaTxt" alignment="0" max="32767" attributes="0"/>
+                          <Component id="numeroDePlatosTxt" alignment="0" min="-2" pref="99" max="-2" attributes="0"/>
+                      </Group>
+                      <Component id="peticion2Txt" min="-2" pref="99" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="63" max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="-2" pref="36" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="numeroDePlatosTxt" alignment="3" min="-2" pref="22" max="-2" attributes="0"/>
+                              <Component id="platosLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="numeroDeCilindrosTxt" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="cilindrosLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="numeroDeSectoresxPistaTxt" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="sectoresLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="tiempoDeBusquedaTxt" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="busquedaLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="velocidadDeGiro" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="velocidadLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="136" max="-2" attributes="0"/>
+                          <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="peticion1Txt" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="peticion1Label" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="peticion2Label" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="peticion2Txt" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace pref="44" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="platosLabel">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="N&#xfa;mero de platos"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="numeroDePlatosTxt">
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="numeroDePlatosTxtActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JLabel" name="cilindrosLabel">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="N&#xfa;mero de cilindros"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="numeroDeCilindrosTxt">
+        </Component>
+        <Component class="javax.swing.JTextField" name="numeroDeSectoresxPistaTxt">
+        </Component>
+        <Component class="javax.swing.JLabel" name="sectoresLabel">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="N&#xfa;mero de sectores/pista "/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="busquedaLabel">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Tiempo de b&#xfa;squeda (ms)"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="velocidadLabel">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Velocidad de giro (s)"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="velocidadDeGiro">
+        </Component>
+        <Component class="javax.swing.JTextField" name="tiempoDeBusquedaTxt">
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel1">
+        </Component>
+        <Component class="javax.swing.JLabel" name="peticion1Label">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Petici&#xf3;n 1"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="peticion1Txt">
+        </Component>
+        <Component class="javax.swing.JLabel" name="peticion2Label">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Petici&#xf3;n 2"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="peticion2Txt">
+        </Component>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JButton" name="iniciarEjerciciosBtn">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Iniciar"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="iniciarEjerciciosBtnActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="menuBtn">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Menu"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="menuBtnActionPerformed"/>
+      </Events>
+    </Component>
+  </SubComponents>
+</Form>
